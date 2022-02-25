@@ -21,6 +21,6 @@ window.onscroll = function (e) {
     }
 };
 
-$('#fecha').countdown('2018/08/23', function(event) {
+$('#fecha').countdown('2022/08/23', function(event) {
     $(this).html(event.strftime('<p><span> %D </span> dias <span> %H </span> horas <span> %M </span> minutos  <span> %S </span> Segundos </p>'));
   });
